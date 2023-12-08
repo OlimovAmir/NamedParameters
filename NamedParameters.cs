@@ -22,7 +22,9 @@ namespace NamedParameters
         }
         static void Main(string[] args)
         {
-            int result = Sum(1, 2, true);
+            int firstValue = 25;
+            int lastValue = 40;
+            int result = Sum(firstValue, lastValue, enableLogging: true);
         }
     }
 }
